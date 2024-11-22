@@ -4,7 +4,7 @@ This repo has the code for an MVP for an **Interactive Museum Guide**, designed 
 
 The museum visitors could ask a digital tour guide questions about the exhibits or their artists, satisfying their curiosity.
 
----
+
 
 ## ✨ Features
 
@@ -12,7 +12,7 @@ The museum visitors could ask a digital tour guide questions about the exhibits 
 - **Real-time Interactions**: Visitors could ask questions or request information about exhibits via **Facebook Messenger**.
 - **Practical Showcase**: Tested with museum visitors, demonstrated at the **UvA Entrepreneurship Minor Startup Market**, and presented to museums as a technological prototype.
 
----
+
 
 ## 🔧 Methodology & Technologies
 
@@ -22,7 +22,7 @@ The museum visitors could ask a digital tour guide questions about the exhibits 
 - **Tunneling for Local Testing**: Employed **ngrok** to expose the local server to the web, facilitating interaction through Messenger.
 - **Testing & Feedback**: Conducted initial user testing with museum visitors to gather insights into usability and performance.
 
----
+
 
 ## 📚 Libraries Used
 
@@ -35,7 +35,7 @@ The project uses the following libraries to implement its features:
 - **BitsAndBytes**: Used within **transformers** for model quantization, enabling efficient usage of LLMs on consumer-grade hardware.
 - **requests**: To manage HTTP requests for integration and external API communication.
 
----
+
 
 ## 🚧 Challenges & Learnings
 
@@ -43,20 +43,20 @@ The project uses the following libraries to implement its features:
 - **Museum Planning Horizons**: The project faced adoption hurdles due to the long planning cycles of museums, preventing integration into live exhibitions.
 - **User Feedback**: Users really enjoyed the interactive nature of the guide; however, concerns about the **factuality of the responses** remained, highlighting a common limitation with LLMs. It would be interesting to experiment with newer, larger models with extended context windows to provide more comprehensive information to the LLM about the artwork, which could potentially address these concerns.
 
----
+
 
 ## 🌍 Legacy: KurioCity
 
 The foundational ideas of this project evolved into **KurioCity**, a web app offering **AI-generated audio guides** for landmarks across Amsterdam, creating a city-wide museum experience. You can check out the project website at [kuriocity.com](https://kuriocity.com).
 
----
+
 
 ## 📂 Repository Content
 
 - **Notebook**: `MessengerBotGeneralQueryNoToken.ipynb` - This notebook contains an instance of the bot with a general 3-shot prompt, designed to answer questions about any artwork.
 - **Notebook**: `MessengerBotSpecificPrompts.ipynb` - This file contains an instance of the bot with multiple preloaded prompts, each tailored to a specific museum exhibit. The approach aimed to provide the LLM with exhibit-specific information to limit hallucinations and enhance response accuracy. The prompt was selected by starting the user message with a number to identify the exhibit, similar to other museum audio guides.
 
----
+
 
 ## 💬 Example Interactions
 
@@ -74,7 +74,7 @@ Here are some sample interactions that demonstrate the capabilities of the inter
 
    **Response**: *Thank you for asking! While "The Fishing for Souls" doesn't directly relate to Attack on Titan, both works deal with themes of struggle and survival. Both paintings feature groups of people fighting against adversity, whether it be the religious and political conflicts in the Netherlands or the titans threatening humanity in Attack on Titan. Additionally, both works explore ideas of faith, perseverance, and the importance of community in overcoming challenges. So while they may seem unrelated initially, there are actually some interesting connections to be made between these two works of art.*
 
----
+
 
 ## 🙏 Acknowledgments
 
